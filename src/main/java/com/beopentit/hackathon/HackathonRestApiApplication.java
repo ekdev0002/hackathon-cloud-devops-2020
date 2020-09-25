@@ -18,6 +18,8 @@ public class HackathonRestApiApplication {
 
     @Autowired
     private UserRepository repository;
+    
+    
 
     @PostConstruct
     public void initUsers() {
